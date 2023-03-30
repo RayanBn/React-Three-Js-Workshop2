@@ -18,8 +18,8 @@ npm run dev
 ```
 
 <h2>Step 2</h2>
-Commencons par decouvrir comment debug une application react three !
-Commencons par entourer notre code d'un balise permettant de vous avertir de chaque problème que vous allez rencontrer.
+Let's start by discovering how to debug a react three application!
+Let's start by surrounding our code with a tag to warn you of any problem you may encounter.
 <br>
 <br>
 
@@ -41,15 +41,15 @@ root.render(
 ```
 
 <h2>Step 3</h2>
-Maintenant, il est important de pouvoir tester rapidement ce que l'on veut faire. Pour cela, on va utiliser leva !
+Now, it is important to be able to quickly test what we want to do. For this, we will use leva!
 <br>
-Pour cela, il faudra d'abord l'importer :
+To do this, you must first import it:
 
 ```js
 import { useControls } from 'leva'
 ```
 
-Une fois le module importer, vous allez pouvoir declarer plusieurs variable avec une valeur par defaut pour ensuite pouvoir les modifier en temps reel sur votre site :
+Once the module is imported, you will be able to declare several variables with a default value and then modify them in real time on your site:
 ```js
 const { color } = useControls({
     color: '#ff0000',
@@ -61,18 +61,18 @@ const { color } = useControls({
 ```
 
 <h2>Step 4</h2>
-Passons maintenant a la physique ! Pour ca, nous allons utiliser une branche de react three qui s'appel rapier.
+Now let's go to the physics! For this, we will use a branch of react three called rapier.
 
 ```js
 import { Physics, RigidBody, Debug } from "@react-three/rapier";
 ```
 
-Voici un lien vers la documentation de rapier. Ici le but sera de creer des objets simple avec de la physique et de pouvoir modifier leurs hitbox : <br>
+Here is a link to the documentation of rapier. Here the goal will be to create simple objects with physics and to be able to modify their hitbox: <br>
 https://github.com/pmndrs/react-three-rapier
 
 <h2>Step 5</h2>
-Grace a la step 4, vous pourez acceder aux propriétés de chaque objets, pour ensuite les modifier comme vous le souhaitez. Vous permettant ainsi le les faire interagir avec votre scene. Maintenant, apprenons a charger des models 3D grace a react-three/drei.
-Voici un lien vers la documentation :<br>
+Thanks to step 4, you will be able to access the properties of each object, to then modify them as you wish. This allows you to make them interact with your scene. Now, let's learn how to load 3D models with react-three/drei.
+Here is a link to the documentation: <br>
 https://github.com/pmndrs/drei#usegltf <br>
-Voici un lien ou vous pourrez trouver plusieurs model gratuit dedié a react three js : <br>
+Here is a link where you can find several free model dedicated to react three js: <br>
 https://market.pmnd.rs/
