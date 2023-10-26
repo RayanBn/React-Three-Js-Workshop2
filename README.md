@@ -78,10 +78,10 @@ Here is a link where you can find several free model dedicated to react three js
 https://market.pmnd.rs/
 
 <h2>Step 6</h2>
-Now, using leva, you need to be able to create a single geometric shape on your scene, add physics to it, interact with it and change the shape at any time.
-1) Create a dropdown in leva, allowing you to choose the geometric shape.
-2) Create a dropdown in leva, allowing you to choose the action to be taken during interaction.
-3) Implement the 2 functionalities so that the user can choose a shape and an interaction.
+Now, using leva, you need to be able to create a single geometric shape on your scene, add physics to it, interact with it and change the shape at any time.<br>
+1) Create a dropdown in leva, allowing you to choose the geometric shape.<br>
+2) Create a dropdown in leva, allowing you to choose the action to be taken during interaction.<br>
+3) Implement the 2 functionalities so that the user can choose a shape and an interaction.<br>
 
 <h2>Step 7</h2>
 To go a step further, a hook often used is the useScroll, which will make your site more dynamic and pleasant. Here's an example of how to use this hook:
